@@ -75,3 +75,6 @@ typings/
 *.vscode
 # Word
 ~$*.doc*
+
+# OS Specific Files
+.DS_store
