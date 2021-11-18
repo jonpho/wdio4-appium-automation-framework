@@ -1,0 +1,31 @@
+{
+  "url": { "URL": "/" },
+  "hrefs": {},
+  "buttons": {
+    "LOG_IN_TEXt_DOESNTWORK": "android=new UiSelector().text(\"LOG IN\")",
+    "LOG_IN_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[3]/android.view.View[1]/android.widget.Button",
+    "REMEMBER_ME_TOGGLE_ID": "android=new UiSelector().resourceId(\"toggle-0-0\")",
+    "KEEP_ME_LOGGED_IN_TOGGLE_ID": "android=new UiSelector().resourceId(\"toggle-1-0\")",
+    "CONTINUE": "//*[@text='CONTINUE']",
+    "CANCEL": "//*[@text='CANCEL']",
+    "CONTINUE_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.app.Dialog/android.view.View/android.widget.Button[2]",
+    "CANCEL_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.app.Dialog/android.view.View/android.widget.Button[2]",
+    "GOODMORNING_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]",
+    "GOODAFTERNOON_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]",
+    "GOODEVENING_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]",
+    "DEV_SWITCH_BUTTON_TEXT": "android=new UiSelector().text(\"SWITCH\")",
+    "DEV_SWITCH_BUTTON_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.app.Dialog/android.view.View/android.widget.Button[2]",
+    "FINGER_PRINT_NOT_NOW_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[4]/android.view.View[2]"
+  },
+  "dropdowns": {},
+  "inputs": {
+    "USERNAME_FIELD": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[3]/android.view.View[1]/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.widget.EditText",
+    "PASSWORD_FIELD": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[3]/android.view.View[1]/android.view.View[2]/android.view.View/android.view.View/android.view.View[2]/android.widget.EditText",
+    "TOKEN_FIELD_ID": "android=new UiSelector().resourceId(\"alert-input-0-0\")",
+    "TOKEN_FIELD_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.app.Dialog/android.view.View/android.view.View[3]/android.widget.EditText"
+  },
+  "radio_buttons": {},
+  "special": {},
+  "locations": {
+  }
+}

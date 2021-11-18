@@ -1,0 +1,31 @@
+{
+  "url": { "URL": "/" },
+  "hrefs": {},
+  "buttons": {
+    "LOG_IN_TEXt_DOESNTWORK": "android=new UiSelector().text(\"LOG IN\")",
+    "LOG_IN_XPATH": "",
+    "REMEMBER_ME_TOGGLE_ID": "android=new UiSelector().resourceId(\"toggle-0-0\")",
+    "KEEP_ME_LOGGED_IN_TOGGLE_ID": "android=new UiSelector().resourceId(\"toggle-1-0\")",
+    "CONTINUE": "//*[@text='CONTINUE']",
+    "CANCEL": "//*[@text='CANCEL']",
+    "CONTINUE_XPATH": "",
+    "CANCEL_XPATH": "",
+    "GOODMORNING_XPATH": "",
+    "GOODAFTERNOON_XPATH": "",
+    "GOODEVENING_XPATH": "",
+    "DEV_SWITCH_BUTTON_TEXT": "android=new UiSelector().text(\"SWITCH\")",
+    "DEV_SWITCH_BUTTON_XPATH": "",
+    "FINGER_PRINT_NOT_NOW_XPATH": ""
+  },
+  "dropdowns": {},
+  "inputs": {
+    "USERNAME_FIELD": "",
+    "PASSWORD_FIELD": "",
+    "TOKEN_FIELD_ID": "android=new UiSelector().resourceId(\"alert-input-0-0\")",
+    "TOKEN_FIELD_XPATH": ""
+  },
+  "radio_buttons": {},
+  "special": {},
+  "locations": {
+  }
+}

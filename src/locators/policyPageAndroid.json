@@ -1,0 +1,34 @@
+{
+  "url" :{ "URL": "/" },
+  "hrefs" : {},
+  "buttons" : {
+    "MENU_DOC_PHOTO_UPLOAD_TEXT": "image outline Document Photo Upload",
+    "MENU_DOC_PHOTO_UPLOAD_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View[1]/android.view.View/android.view.View[2]/android.view.View[2]/android.widget.Button[8]",
+    "TAKE_A_PICTURE_TEXT": "camera TAKE A PICTURE",
+    "TAKE_A_PICTURE_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View/android.widget.Button[1]\n",
+    "SELECT_A_PHOTO_TEXT": "image SELECT A PHOTO",
+    "SELECT_A_PHOTO_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View/android.widget.Button[2]\n",
+    "PHOTO_ALLOW_ACCESS": "android=new UiSelector().resourceId(\"com.android.packageinstaller:id/permission_allow_button\")",
+    "TAKE_PHOTO_BUTTON": "android=new UiSelector().resourceId(\"com.android.camera2:id/shutter_button\")",
+    "TAKE_PHOTO_BUTTON_ID": "android=new UiSelector().id(\"Shutter\")",
+    "TAKE_PHOTO_XPATH": "//android.widget.ImageView[@content-desc=\"Shutter\"]",
+    "CONFIRM_PHOTO_BUTTON": "android=new UiSelector().resourceId(\"com.android.camera2:id/done_button\")",
+    "CONFIRM_PHOTO_BUTTON_ID": "android=new UiSelector().id(\"Done\")",
+    "CONFIRM_PHOTO_BUTTON_XPATH": "//android.widget.ImageButton[@content-desc=\"Done\"]",
+    "UPLOAD_PHOTO_BUTTON_TEXT": "UPLOAD",
+    "UPLOAD_PHOTO_BUTTON_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.widget.Button\n",
+    "REASON_UPLOAD_PHOTO_BUTTON_TEXT": "UPLOAD",
+    "REASON_UPLOAD_BUTTON_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.app.Dialog/android.view.View/android.widget.Button[2]\n",
+    "OK_SUCCESS_ALERT_TEXT": "OK",
+    "OK_SUCCESS_ALERT_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.app.Dialog/android.view.View/android.widget.Button\n"
+  },
+  "dropdowns" :{
+    "MENU": "android=new UiSelector().text(\"menu\")",
+    "MENU_XPATH": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[1]/android.view.View[1]/android.widget.Button"
+  },
+  "inputs" :{},
+  "radio_buttons":{
+    "CLAIMS_INFORMATION": "android=new UiSelector().resourceId(\"alert-input-0-1\")"
+  },
+  "special" :{}
+}

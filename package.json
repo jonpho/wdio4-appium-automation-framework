@@ -1,0 +1,201 @@
+{
+  "name": "wdio4-appium-keyword-automation",
+  "version": "0.0.1",
+  "description": "A WebDriverIO project that supports web and mobile app test automation.",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.9.0",
+    "appium": "^1.12.1",
+    "appium-controller": "^1.1.6",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "better-npm-run": "^0.1.1",
+    "chai": "^4.2.0",
+    "commander": "^2.15.1",
+    "cucumber": "^5.1.0",
+    "eslint": "^5.15.3",
+    "glob": "^7.1.2",
+    "jsdoc": "^3.5.5",
+    "promise": "^8.0.3",
+    "shelljs": "^0.8.1",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-browserstack-service": "^0.1.18",
+    "wdio-cucumber-framework": "^2.2.8",
+    "wdio-cucumber-reporter": "^0.0.2",
+    "wdio-json-reporter": "^0.4.0",
+    "wdio-junit-reporter": "^0.4.3",
+    "wdio-selenium-standalone-service": "^0.0.12",
+    "webdriverio": "^4.14.4"
+  },
+  "scripts": {
+    "multiDesktop": "bnr multiDesktop -s",
+    "multiMobile": "bnr multiMobile -s",
+    "chrome": "bnr chrome -s",
+    "firefox": "bnr firefox -s",
+    "androidDevice": "bnr androidDevice -s",
+    "androidEmulator": "bnr androidEmulator -s",
+    "androidBrowserstack": "bnr androidBrowserstack -s",
+    "androidGalaxyS9Browserstack": "bnr androidGalaxyS9Browserstack -s",
+    "androidGalaxyS8Browserstack": "bnr androidGalaxyS8Browserstack -s",
+    "androidPixel3XLBrowserstack": "bnr androidPixel3XLBrowserstack -s",
+    "androidPixel3Browserstack": "bnr androidPixel3Browserstack -s",
+    "androidPixel2Browserstack": "bnr androidPixel2Browserstack -s",
+    "androidChromeMobile": "bnr androidChromeMobile -s",
+    "iphoneDevice": "bnr iphoneDevice -s",
+    "iphoneSimulator": "bnr iphoneSimulator -s",
+    "iphoneChromeMobile": "bnr iphoneChromeMobile -s",
+    "iPhoneXSMaxBrowserstack": "bnr iPhoneXSMaxBrowserstack -s",
+    "iPhoneXSBrowserstack": "bnr iPhoneXSBrowserstack -s",
+    "iPhone8Browserstack": "bnr iPhone8Browserstack -s",
+    "iPhone8PlusBrowserstack": "bnr iPhone8PlusBrowserstack -s",
+    "publish-jsdoc": "jsdoc . -r -d docs/ -c docs/config.json",
+    "setupEmail": "node ./src/utility/email.setup.js"
+  },
+  "betterScripts": {
+    "multiDesktop": {
+      "command": "wdio wdio.conf.js --host localhost",
+      "description": "Multiple browsers concurrently on local machine",
+      "env": {
+        "CAPABILITY": "multiDesktop"
+      }
+    },
+    "multiMobile": {
+      "command": "wdio wdio.conf.js --host localhost",
+      "description": "Droid and iPhone concurrently on local machine",
+      "env": {
+        "CAPABILITY": "multiMobile"
+      }
+    },
+    "chrome": {
+      "command": "wdio wdio.conf.js --host localhost",
+      "description": "Chrome on local machine",
+      "env": {
+        "CAPABILITY": "chrome"
+      }
+    },
+    "firefox": {
+      "command": "wdio wdio.conf.js --host localhost",
+      "description": "Firefox on local machine",
+      "env": {
+        "CAPABILITY": "firefox"
+      }
+    },
+    "androidDevice": {
+      "command": "appium-controller --start && wdio wdio.conf.js --host localhost && appium-controller --stop",
+      "description": "Android device",
+      "env": {
+        "CAPABILITY": "androidDevice"
+      }
+    },
+    "androidEmulator": {
+      "command": "appium-controller --start && wdio wdio.conf.js --host localhost && appium-controller --stop",
+      "description": "Android Emululator on local machine",
+      "env": {
+        "CAPABILITY": "androidEmulator",
+        "DEVICETYPE": "android"
+      }
+    },
+    "androidBrowserstack": {
+      "command": "wdio wdio.bstack.conf.js",
+      "description": "Android Device running in Browserstack",
+      "env": {
+        "CAPABILITY": "androidBrowserstack"
+      }
+    },
+    "androidGalaxyS9Browserstack": {
+      "command": "wdio wdio.bstack.conf.js",
+      "description": "Android Device running in Browserstack",
+      "env": {
+        "CAPABILITY": "androidGalaxyS9Browserstack"
+      }
+    },
+    "androidGalaxyS8Browserstack": {
+      "command": "wdio wdio.bstack.conf.js",
+      "description": "Android Device running in Browserstack",
+      "env": {
+        "CAPABILITY": "androidGalaxyS8Browserstack"
+      }
+    },
+    "androidPixel3XLBrowserstack": {
+      "command": "wdio wdio.bstack.conf.js",
+      "description": "Android Device running in Browserstack",
+      "env": {
+        "CAPABILITY": "androidPixel3XLBrowserstack"
+      }
+    },
+    "androidPixel3Browserstack": {
+      "command": "wdio wdio.bstack.conf.js",
+      "description": "Android Device running in Browserstack",
+      "env": {
+        "CAPABILITY": "androidPixel3Browserstack"
+      }
+    },
+    "androidPixel2Browserstack": {
+      "command": "wdio wdio.bstack.conf.js",
+      "description": "Android Device running in Browserstack",
+      "env": {
+        "CAPABILITY": "androidPixel2Browserstack"
+      }
+    },
+    "iPhoneXSMaxBrowserstack": {
+      "command": "wdio wdio.bstack.conf.js",
+      "description": "iPhone Device running in Browserstack",
+      "env": {
+        "CAPABILITY": "iPhoneXSMaxBrowserstack"
+      }
+    },
+    "iPhoneXSBrowserstack": {
+      "command": "wdio wdio.bstack.conf.js",
+      "description": "iPhone Device running in Browserstack",
+      "env": {
+        "CAPABILITY": "iPhoneXSBrowserstack"
+      }
+    },
+    "iPhone8Browserstack": {
+      "command": "wdio wdio.bstack.conf.js",
+      "description": "iPhone Device running in Browserstack",
+      "env": {
+        "CAPABILITY": "iPhone8Browserstack"
+      }
+    },
+    "iPhone8PlusBrowserstack": {
+      "command": "wdio wdio.bstack.conf.js",
+      "description": "iPhone Device running in Browserstack",
+      "env": {
+        "CAPABILITY": "iPhone8PlusBrowserstack"
+      }
+    },
+    "mobileBackup": {
+      "command": "appium-controller --start && wdio wdio.conf.js --host localhost && appium-controller --stop",
+      "description": "Android Emululator on local machine",
+      "env": {
+        "CAPABILITY": "androidEmulator"
+      }
+    },
+    "androidChromeMobile": {
+      "command": "wdio wdio.conf.js --host localhost",
+      "description": "Android run through Chrome Mobile Emulator",
+      "env": {
+        "CAPABILITY": "androidChromeMobile"
+      }
+    },
+    "iphoneSimulator": {
+      "command": "wdio wdio.conf.js --host localhost",
+      "description": "iPhone Simulator on local machine",
+      "env": {
+        "CAPABILITY": "iphoneSimulator"
+      }
+    },
+    "iphoneChromeMobile": {
+      "command": "wdio wdio.conf.js --host localhost",
+      "description": "iPhone X run through Chrome Mobile Emulator",
+      "env": {
+        "CAPABILITY": "iphoneChromeMobile"
+      }
+    }
+  },
+  "dependencies": {}
+}

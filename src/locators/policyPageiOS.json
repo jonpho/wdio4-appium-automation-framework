@@ -1,0 +1,34 @@
+{
+  "url" :{ "URL": "/" },
+  "hrefs" : {},
+  "buttons" : {
+    "MENU_DOC_PHOTO_UPLOAD_TEXT": "image outline Document Photo Upload",
+    "MENU_DOC_PHOTO_UPLOAD_XPATH": "",
+    "TAKE_A_PICTURE_TEXT": "camera TAKE A PICTURE",
+    "TAKE_A_PICTURE_XPATH": "",
+    "SELECT_A_PHOTO_TEXT": "image SELECT A PHOTO",
+    "SELECT_A_PHOTO_XPATH": "",
+    "PHOTO_ALLOW_ACCESS": "android=new UiSelector().resourceId(\"com.android.packageinstaller:id/permission_allow_button\")",
+    "TAKE_PHOTO_BUTTON": "android=new UiSelector().resourceId(\"com.android.camera2:id/shutter_button\")",
+    "TAKE_PHOTO_BUTTON_ID": "android=new UiSelector().id(\"Shutter\")",
+    "TAKE_PHOTO_XPATH": "",
+    "CONFIRM_PHOTO_BUTTON": "android=new UiSelector().resourceId(\"com.android.camera2:id/done_button\")",
+    "CONFIRM_PHOTO_BUTTON_ID": "android=new UiSelector().id(\"Done\")",
+    "CONFIRM_PHOTO_BUTTON_XPATH": "",
+    "UPLOAD_PHOTO_BUTTON_TEXT": "UPLOAD",
+    "UPLOAD_PHOTO_BUTTON_XPATH": "",
+    "REASON_UPLOAD_PHOTO_BUTTON_TEXT": "UPLOAD",
+    "REASON_UPLOAD_BUTTON_XPATH": "",
+    "SUCCESS_ALERT_TEXT": "OK",
+    "SUCCESS_ALERT_XPAT": ""
+  },
+  "dropdowns" :{
+    "MENU": "android=new UiSelector().text(\"menu\")",
+    "MENU_XPATH": ""
+  },
+  "inputs" :{},
+  "radio_buttons":{
+    "CLAIMS_INFORMATION": "android=new UiSelector().resourceId(\"alert-input-0-1\")"
+  },
+  "special" :{}
+}
